@@ -10,15 +10,16 @@
 </head>
 
 <body>
+    <h1>My unit tests</h1>
     <div id="mocha"></div>
     <script>
         mocha.setup('bdd');
         var assert = chai.assert;
     </script>
 
-<script src="greet.js" charset="utf-8"></script>
+	<script src="countRegNumber.js" charset="utf-8"></script>
     <!-- followed by the tests -->
-    <script src="./tests/greet.tests.js" charset="utf-8"></script>
+    <script src="./tests/countRegNumber.test.js" charset="utf-8"></script>
     <script>
         mocha.checkLeaks();
         mocha.run();
