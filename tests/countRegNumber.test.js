@@ -1,7 +1,11 @@
 describe('this test' , function(){
-    it('Tests the countREgNumber function' , function(){
-        assert.equal(greet('Bob'), 'Hello, Bob');
-		assert.equal(greet('Sam'), 'Hello, Sam');
+    it('Tests the countRegNumber function' , function(){
+       var regCount = countRegNumber('CA 182736,CY 523519,CJ 812328')
+		assert.equal(regCount, 3);
+
+		var regCount = countRegNumber('CA 182736')
+		assert.equal(regCount, 1);
+
     });
 
 });
