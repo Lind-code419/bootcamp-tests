@@ -1,5 +1,5 @@
-describe('this test' , function(){
-    it('should show you how to use MochaJS' , function(){
+describe('mostProfitableDepartment function: ' , function(){
+    it('mostProfitableDepartment' , function(){
         assert.equal('outdoor', mostProfitableDepartment(salesData), "Most profitable department is 'outdoor' for dataset 1");
 assert.equal('electronics', mostProfitableDepartment(salesData2), "Most profitable department is 'electronics' for dataset 2");
 

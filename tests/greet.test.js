@@ -2,8 +2,8 @@ console.log("greet.js");
 
 
 
-describe('this test' , function(){
-    it('should show you how to use MochaJS' , function(){
+describe('Greet function test' , function(){
+    it('greet function:' , function(){
         assert.equal(greet('Bob'), 'Hello, Bob');
 		assert.equal(greet('Sam'), 'Hello, Sam');
     });
